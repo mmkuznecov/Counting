@@ -9,7 +9,9 @@ import matplotlib
 import time
 
 class Recognition:
-    def __init__(self,caffe="MobileNetSSD_deploy.caffemodel",prototxt='MobileNetSSD_deploy.prototxt',CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat","bottle", "bus", "car", "cat", "chair", "cow", "diningtable","dog", "horse", "motorbike", "person", "pottedplant", "sheep","sofa", "train", "tvmonitor"]):
+    def __init__(self,caffe="MobileNetSSD_deploy.caffemodel",prototxt='MobileNetSSD_deploy.prototxt',CLASSES = ["background", "aeroplane", 
+    "bicycle", "bird", "boat","bottle", "bus", "car", "cat", "chair", "cow", "diningtable","dog", "horse", "motorbike", "person", 
+    "pottedplant", "sheep","sofa", "train", "tvmonitor"]):
         self.caffe = caffe
         self.prototxt = prototxt
         self.CLASSES = CLASSES
